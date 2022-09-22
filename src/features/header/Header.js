@@ -22,11 +22,12 @@ export default function Header() {
 							<h3><span>Java Full Stack Developer</span></h3>
 							<p>
 								<ul className="fh5co-social-icons">
-									<li><a href="https://twitter.com/NITHINPRASAD2"><i className="icon-twitter2"></i></a></li>
+									<li><a href="https://twitter.com/AjShukla07"><i className="icon-twitter2"></i></a></li>
 									<li><a href="https://www.facebook.com/nithin.chiku"><i className="icon-facebook2"></i></a></li>
-									<li><a href="https://www.linkedin.com/in/nithin-prasad/"><i className="icon-linkedin2"></i></a></li>
-									<li><a href="https://github.com/nithinprasad/"><i className="icon-github2"></i></a></li>
+									<li><a href="https://www.linkedin.com/in/ajit-shukla-a36171171/"><i className="icon-linkedin2"></i></a></li>
+									<li><a href="https://github.com/ajz007"><i className="icon-github2"></i></a></li>
 									<li><a href="https://www.instagram.com/nithin.chikku/"><i className="icon-instagram2"></i></a></li>
+									<li><a href="https://averagetechie.medium.com/"><i className="icon-instagram2"></i></a></li>
 								</ul>
 							</p>
 						</div>
