@@ -2,19 +2,18 @@ export default function Projects(){
 
     return(
         <div id="fh5co-blog">
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+		<div className="container">
+			<div className="row animate-box">
+				<div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
 					<h2>Projects</h2>
 					<p>List of Projects Completed So Far</p>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-3">
-					<div class="fh5co-blog animate-box">
-						<!--<a href="#" class="blog-bg" style="background-image: url(images/portfolio-1.jpg);"></a> -->
-						<div class="blog-text">
-							<span class="posted_on">Technical Lead</span>
+			<div className="row">
+				<div className="col-md-3">
+					<div className="fh5co-blog animate-box">
+						<div className="blog-text">
+							<span className="posted_on">Technical Lead</span>
 							<h3><a href="#">Conversa (TCS Chatbot)</a></h3>
 							<p>Technology: Java 11, Rest, Jboss,MicroServices, Spring boot</p>
 							<p>Responsibilities: 
@@ -29,11 +28,10 @@ export default function Projects(){
 					</div>
 				</div>
 				
-				<div class="col-md-3">
-					<div class="fh5co-blog animate-box">
-						<!--<a href="#" class="blog-bg" style="background-image: url(images/portfolio-1.jpg);"></a> -->
-						<div class="blog-text">
-							<span class="posted_on">Technical Lead</span>
+				<div className="col-md-3">
+					<div className="fh5co-blog animate-box">
+						<div className="blog-text">
+							<span className="posted_on">Technical Lead</span>
 							<h3><a href="#">Luminor</a></h3>
 							<p>Technology: Java8, Openam, Rest, Jboss</p>
 							<p>Responsibilities: 
@@ -50,11 +48,10 @@ export default function Projects(){
 						</div> 
 					</div>
 				</div>
-				<div class="col-md-3">
-					<div class="fh5co-blog animate-box">
-						<!--<a href="#" class="blog-bg" style="background-image: url(images/portfolio-1.jpg);"></a> -->
-						<div class="blog-text">
-							<span class="posted_on">Snr. Java Devloper</span>
+				<div className="col-md-3">
+					<div className="fh5co-blog animate-box">
+						<div className="blog-text">
+							<span className="posted_on">Snr. Java Devloper</span>
 							<h3><a href="#">Bank South Pacific </a></h3>
 							<p>Technology: JDBC, Servlets, JSP, Java7, Soap, Oracle weblogic</p>
 							<p>Responsibilities: 
@@ -68,11 +65,10 @@ export default function Projects(){
 						</div> 
 					</div>
 				</div>
-				<div class="col-md-3">
-					<div class="fh5co-blog animate-box">
-						<!--<a href="#" class="blog-bg" style="background-image: url(images/portfolio-1.jpg);"></a> -->
-						<div class="blog-text">
-							<span class="posted_on">Java Devloper</span>
+				<div className="col-md-3">
+					<div className="fh5co-blog animate-box">
+						<div className="blog-text">
+							<span className="posted_on">Java Devloper</span>
 							<h3><a href="#">Mercantile Bank Limited </a></h3>
 							<p>Technology & Environment: JDBC, Servlets, JSP, Java7, Soap, IBM WebSphere</p>
 							<p>Responsibilities: 
