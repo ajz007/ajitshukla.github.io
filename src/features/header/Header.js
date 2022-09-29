@@ -1,8 +1,8 @@
-import react from 'react';
-import '../../css/animate.css'
-import '../../css/icomoon.css'
-import '../../css/bootstrap.css'
-import '../../css/style.css'
+import React from 'react'
+//import '../../css/animate.css'
+//import '../../css/icomoon.css'
+//import '../../css/bootstrap.css'
+//import '../../css/style.css'
 import myBgPhoto from "../../images/nithin.jpeg"
 import myThumbNailPhoto from "../../images/nithin.jpg"
 
@@ -27,7 +27,6 @@ export default function Header() {
 									<li><a href="https://www.linkedin.com/in/ajit-shukla-a36171171/"><i className="icon-linkedin2"></i></a></li>
 									<li><a href="https://github.com/ajz007"><i className="icon-github2"></i></a></li>
 									<li><a href="https://www.instagram.com/nithin.chikku/"><i className="icon-instagram2"></i></a></li>
-									<li><a href="https://averagetechie.medium.com/"><i className="icon-instagram2"></i></a></li>
 								</ul>
 							</p>
 						</div>

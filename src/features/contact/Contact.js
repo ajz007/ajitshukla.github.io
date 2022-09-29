@@ -1,4 +1,4 @@
-import react from 'react';
+import React from 'react';
 import '../../css/animate.css'
 import '../../css/icomoon.css'
 import '../../css/bootstrap.css'

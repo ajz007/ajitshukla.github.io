@@ -44,3 +44,17 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+## Changes Done for converting the html css based page to React
+
+### Issues faced while converting html divs to react components with exiting css
+
+1. css class in html to be converted to className in react.
+2. style has to be updated to react syntax like style={{width:"100%"}}
+3. import images and use in inline style instead of using <img src = url />
+4. Ensure no open tags like <br>  These should always be closed like <br/>
+5. jquery issue -- $ not defined. For this import the jquery in specific js file where it is being used instead of importing in the component
+
+5. install jquery -- npm i jquery --save
+then import it -- import $ from 'jquery'; 
