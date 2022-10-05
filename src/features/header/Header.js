@@ -1,10 +1,6 @@
 import React from 'react'
-//import '../../css/animate.css'
-//import '../../css/icomoon.css'
-//import '../../css/bootstrap.css'
-//import '../../css/style.css'
-import myBgPhoto from "../../images/nithin.jpeg"
-import myThumbNailPhoto from "../../images/nithin.jpg"
+import myBgPhoto from "../../images/pexels-pixabay-270360.jpg"
+import myThumbNailPhoto from "../../images/ajit.jpeg"
 
 export default function Header() {
 
@@ -19,14 +15,14 @@ export default function Header() {
 						<div className="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
 							<div className="profile-thumb" style={{ backgroundImage: `url(${myThumbNailPhoto})` }}></div> 
 							<h1><span>Ajit Shukla</span></h1>
-							<h3><span>Java Full Stack Developer</span></h3>
-							<p>
+							<h3><span>A Java Full Stack Generalist/Backend Specialist</span></h3>
+							<br/>
+							<p> 
 								<ul className="fh5co-social-icons">
-									<li><a href="https://twitter.com/AjShukla07"><i className="icon-twitter2"></i></a></li>
-									<li><a href="https://www.facebook.com/nithin.chiku"><i className="icon-facebook2"></i></a></li>
+									<li><a href="https://twitter.com/AjShukla07"><i className="icon-twitter2"></i></a></li>									
 									<li><a href="https://www.linkedin.com/in/ajit-shukla-a36171171/"><i className="icon-linkedin2"></i></a></li>
 									<li><a href="https://github.com/ajz007"><i className="icon-github2"></i></a></li>
-									<li><a href="https://www.instagram.com/nithin.chikku/"><i className="icon-instagram2"></i></a></li>
+									
 								</ul>
 							</p>
 						</div>

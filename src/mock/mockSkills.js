@@ -148,7 +148,7 @@ export const frontEndSkills = [
     }
 ]
 
-export const cloudSkills = [
+export const cloudSkills_ajit = [
     {
         "id": 1,
         "name": "Java",
@@ -163,7 +163,7 @@ export const cloudSkills = [
     }
 ]
 
-export const pipelineSkills = [
+export const pipelineSkills_ajit = [
     {
         "id": 1,
         "name": "Java",
