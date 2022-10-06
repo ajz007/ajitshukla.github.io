@@ -32,6 +32,23 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          echo Add other actions to build,
-          npm start
-          echo test, and deploy your project.
+          echo Going to install react                      
+     
+      - name : Install npm 
+        run : npm i
+        shell: bash
+      - name : clean install dependencies
+        run : npm ci
+        shell: bash
+      - run : npm run build
+        shell: bash
+      - run : git config user.name github-actions
+        shell: bash
+      - run : git config user.email github-actions@github.com
+        shell: bash
+      - run : git --work-tree build add --all
+        shell: bash
+      - run : git commit -m "Automatic Build and Deploy run by GitHub Actions"
+        shell: bash
+      - run : git push origin HEAD:gh-pages --force
+        shell: bash
