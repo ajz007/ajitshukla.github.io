@@ -6,7 +6,7 @@ export default function MyDetails() {
 	const dispatch = useDispatch();
 	const contactDetailsFronRedux = useSelector((state) => state.myDetails)
 
-	useEffect(() => { dispatch(load()) }, [])
+	useEffect(() => { dispatch(load()) }, [dispatch])
 
 
 	return (

@@ -10,7 +10,7 @@ export default function Skills() {
 
     useEffect(() => {
         dispatch({ type: "BACKEND_SKILLS" })
-    }, [])
+    }, [dispatch])
 
     backendSkillSelectFromRedux.map(skill => console.log(`skill.id = ${skill.id}`))
 
