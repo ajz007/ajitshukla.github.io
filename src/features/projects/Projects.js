@@ -1,8 +1,5 @@
 import React from 'react'
-import '../../css/animate.css'
-import '../../css/icomoon.css'
-import '../../css/bootstrap.css'
-import '../../css/style.css'
+
 
 export default function Projects(){
 
@@ -20,7 +17,7 @@ export default function Projects(){
 					<div className="fh5co-blog animate-box">
 						<div className="blog-text">
 							<span className="posted_on">Technical Lead</span>
-							<h3><a href="#">Conversa (TCS Chatbot)</a></h3>
+							<h3><a href="/#">Conversa (TCS Chatbot)</a></h3>
 							<p>Technology: Java 11, Rest, Jboss,MicroServices, Spring boot</p>
 							<p>Responsibilities: 
 			                  <ul>
@@ -38,7 +35,7 @@ export default function Projects(){
 					<div className="fh5co-blog animate-box">
 						<div className="blog-text">
 							<span className="posted_on">Technical Lead</span>
-							<h3><a href="#">Luminor</a></h3>
+							<h3><a href="/#">Luminor</a></h3>
 							<p>Technology: Java8, Openam, Rest, Jboss</p>
 							<p>Responsibilities: 
 			                   <ul>
@@ -58,7 +55,7 @@ export default function Projects(){
 					<div className="fh5co-blog animate-box">
 						<div className="blog-text">
 							<span className="posted_on">Snr. Java Devloper</span>
-							<h3><a href="#">Bank South Pacific </a></h3>
+							<h3><a href="/#">Bank South Pacific </a></h3>
 							<p>Technology: JDBC, Servlets, JSP, Java7, Soap, Oracle weblogic</p>
 							<p>Responsibilities: 
 			                  <ul>
@@ -75,7 +72,7 @@ export default function Projects(){
 					<div className="fh5co-blog animate-box">
 						<div className="blog-text">
 							<span className="posted_on">Java Devloper</span>
-							<h3><a href="#">Mercantile Bank Limited </a></h3>
+							<h3><a href="/#">Mercantile Bank Limited </a></h3>
 							<p>Technology & Environment: JDBC, Servlets, JSP, Java7, Soap, IBM WebSphere</p>
 							<p>Responsibilities: 
 			                 <ul>

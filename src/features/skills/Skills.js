@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import { CircularProgressbar, buildStyles, CircularProgressbarWithChildren } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 import { useDispatch, useSelector } from 'react-redux';
 import Skill from './Skill';

@@ -1,8 +1,5 @@
 import React from 'react';
-import '../../css/animate.css'
-import '../../css/icomoon.css'
-import '../../css/bootstrap.css'
-import '../../css/style.css'
+
 import RoadMapImage from "../../images/roadmap.jpeg"
 
 

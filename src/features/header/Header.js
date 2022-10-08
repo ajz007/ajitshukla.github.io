@@ -19,9 +19,9 @@ export default function Header() {
 							<br/>
 							<p> 
 								<ul className="fh5co-social-icons">
-									<li><a href="https://twitter.com/AjShukla07"><i className="icon-twitter2"></i></a></li>									
-									<li><a href="https://www.linkedin.com/in/ajit-shukla-a36171171/"><i className="icon-linkedin2"></i></a></li>
-									<li><a href="https://github.com/ajz007"><i className="icon-github2"></i></a></li>
+									<li><a href="https://twitter.com/AjShukla07" target="_blank" rel="noreferrer"><i className="icon-twitter2"></i></a></li>									
+									<li><a href="https://www.linkedin.com/in/ajit-shukla-a36171171/" target="_blank" rel="noreferrer"><i className="icon-linkedin2"></i></a></li>
+									<li><a href="https://github.com/ajz007" target="_blank" rel="noreferrer"><i className="icon-github2"></i></a></li>
 									
 								</ul>
 							</p>

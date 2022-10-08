@@ -7,7 +7,6 @@ import Skills from "../skills/Skills";
 import Projects from "../projects/Projects";
 import MyDetails from "../mydetails/MyDetails";
 import Download from "../download/Download";
-import RoadMap from "../roadmap/RoadMap";
 
 export default function MyProfile() {
 
