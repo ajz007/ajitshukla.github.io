@@ -54,7 +54,12 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 2. style has to be updated to react syntax like style={{width:"100%"}}
 3. import images and use in inline style instead of using <img src = url />
 4. Ensure no open tags like <br>  These should always be closed like <br/>
-5. jquery issue -- $ not defined. For this import the jquery in specific js file where it is being used instead of importing in the component
-
 5. install jquery -- npm i jquery --save
 then import it -- import $ from 'jquery'; 
+6. jquery issue -- $ not defined. For this import the jquery in specific js file where it is being used instead of importing in the component
+7. For bootstrap css and js
+npm install --save bootstrap
+Then add the import in index.js
+
+//for deploying on github pages
+npm install gh-pages --save-dev
