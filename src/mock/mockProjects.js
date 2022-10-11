@@ -1,4 +1,4 @@
-export default projects = [ {
+export var projects = [ {
     "name" : "Options Clearing Corporation, US",
     "description" : "Working as Scrum Master – Developer for Nasdaq’s Options Clearing Project",
     "businessDomain" : "Capital Markets",
@@ -6,7 +6,7 @@ export default projects = [ {
     "durationTo" : "",
     "isCurrent" : true,
     "role": "Scrum Master and Individual Contributor",
-    "responsibilities" : ["Story creation, estimation, monitoring and closure of stories along with working as a developer"],
+    "responsibilities" : ["Story creation", "estimation", "monitoring and closure of stories along with working as a developer"],
     "location" : "Mumbai",
     "techStack" : ["Micro services","CDB (Propriety No Sql DB)","Apache Kafka", "IBM MQ", "Java 11", "OAPI", "Git", "Gradle", "Jenkins", "React", "Redux"]
 }, {
@@ -17,7 +17,7 @@ export default projects = [ {
     "durationTo" : "Dec 2021",
     "isCurrent" : false,
     "role": "Tech Lead",
-    "responsibilities" : ["Ensure the failover is created, tested and handed over to the development team"],
+    "responsibilities" : ["Ensure the failover is created", "tested and handed over to the development team"],
     "location" : "Mumbai",
     "techStack" : ["Redhat Linux", "Keepalived", "Shell scripting"]
 },{

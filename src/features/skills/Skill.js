@@ -4,8 +4,6 @@ import 'react-circular-progressbar/dist/styles.css';
 
 export default function Skill({ skill, percentageValue, expertise }) {
 
-
-
     return (
         <div style={{ padding: "30px 30px 30px 30px" }}>
             <CircularProgressbarWithChildren radius={90}
