@@ -14,7 +14,7 @@ export default function Projects() {
 
 	useEffect(() => {
 		if (status === 'init' || status === undefined) { getMyProjects(dispatch); }
-	}, [status]);
+	}, [status, dispatch]);
 
 	function converttoArrayOfArray(projectsArray) {
 		var finalArray = [];
