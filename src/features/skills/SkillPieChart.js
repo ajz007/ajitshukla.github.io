@@ -2,7 +2,7 @@ import React from 'react';
 import { buildStyles, CircularProgressbarWithChildren } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 
-export default function Skill({ skill, percentageValue, expertise }) {
+export default function SkillPieChart({ skill, percentageValue, expertise }) {
 
     return (
         <div style={{ padding: "30px 30px 30px 30px" }}>

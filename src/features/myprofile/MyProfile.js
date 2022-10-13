@@ -19,7 +19,7 @@ export default function MyProfile() {
             <Projects />
             <Download />
            {/* <RoadMap /> */}
-            <Contact />
+            {/*<Contact />*/}
         </>
     );
 }
