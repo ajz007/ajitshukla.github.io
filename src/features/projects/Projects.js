@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 
 import { getMyProjects } from '../../apis/projectsApi';
@@ -11,19 +11,16 @@ export default function Projects() {
 
 	const projectsFromRedux = useSelector(state => state.myProjects);
 	const status = useSelector(state => state.myProjects.status);
-	console.log(`status = ${status}`);
-	console.log(`projectsFromRedux = ${projectsFromRedux}`);
 
 	useEffect(() => {
 		if (status === 'init' || status === undefined) { getMyProjects(dispatch); }
-	}, []);
+	}, [status]);
 
 	function converttoArrayOfArray(projectsArray) {
 		var finalArray = [];
 		for (let i = 0; i < projectsArray.length; i=i+4) {
 			let row = [];
 			for (let j = i; j <= i+3; j++) {
-				console.log(`projectsArray[j] ${projectsArray[j]}`)
 				if(projectsArray[j] !== undefined) {
 				row.push(projectsArray[j]);
 				}
@@ -72,8 +69,6 @@ export default function Projects() {
 						{
 							converttoArrayOfArray(projectsFromRedux.payload).map(
 								(projectRow, index) => {
-									{
-										console.log(`projectRow = ${projectRow + 1}`)
 										return (
 											<div className="row">
 												{projectRow.map(project => {
@@ -83,7 +78,6 @@ export default function Projects() {
 												})}
 											</div>
 										)
-									}
 								}
 							)}
 

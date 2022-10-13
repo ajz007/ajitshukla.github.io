@@ -12,8 +12,6 @@ export default function Skills() {
         dispatch({ type: "BACKEND_SKILLS" })
     }, [dispatch])
 
-    backendSkillSelectFromRedux.map(skill => console.log(`skill.id = ${skill.id}`))
-
     return (<div id="fh5co-skills" className="animate-box">
         <div className="container">
             <div className="row">

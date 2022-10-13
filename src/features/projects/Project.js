@@ -14,7 +14,7 @@ export default function Project(props) {
 						{
 							props.project
 								.responsibilities.map(resposibility => {
-									<li > {resposibility}</li>
+									return <li > {resposibility}</li>
 								})
 
 						}
