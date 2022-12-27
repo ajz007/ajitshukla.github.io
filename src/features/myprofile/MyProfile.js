@@ -1,11 +1,11 @@
 
 import Header from "../header/Header";
 import React from "react";
-import WorkExperience from "../workexp/WorkExperience";
 import Skills from "../skills/Skills";
 import Projects from "../projects/Projects";
 import MyDetails from "../mydetails/MyDetails";
 import Download from "../download/Download";
+import WorkExperiences from "../workexp/WorkExperiences";
 
 export default function MyProfile() {
 
@@ -13,7 +13,7 @@ export default function MyProfile() {
         <>
             <Header />
             <MyDetails />
-            <WorkExperience />
+            <WorkExperiences />
             <Skills />
             <Projects />
             <Download />

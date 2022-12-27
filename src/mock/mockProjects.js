@@ -1,15 +1,31 @@
-export var projects = [ {
+export var projects = [ 
+    {
+        "id":7,
+        "name" : "Options Clearing Corporation, US",
+        "description" : "Working as Scrum Master – Developer for Nasdaq’s Options Clearing Project",
+        "businessDomain" : "Capital Markets",
+        "durationFrom" : "Nov 2022",
+        "durationTo" : "",
+        "isCurrent" : true,
+        "role": "Scrum Master and Individual Contributor",
+        "responsibilities" : ["Planning, designing and execution of project deployment on kubernetes and aws", ""],
+        "location" : "Mumbai",
+        "techStack" : ["Docker","Kubernetes","AWS", "AWS-EC2", "AWS-S3", "Terraform", "Rancher", "Jenkins", "Groovy", "Jinja2"]
+    },
+    {
+    "id":6,
     "name" : "Options Clearing Corporation, US",
     "description" : "Working as Scrum Master – Developer for Nasdaq’s Options Clearing Project",
     "businessDomain" : "Capital Markets",
     "durationFrom" : "Feb 2021",
     "durationTo" : "",
-    "isCurrent" : true,
+    "isCurrent" : false,
     "role": "Scrum Master and Individual Contributor",
     "responsibilities" : ["Story creation", "estimation", "monitoring and closure of stories along with working as a developer"],
     "location" : "Mumbai",
     "techStack" : ["Micro services","CDB (Propriety No Sql DB)","Apache Kafka", "IBM MQ", "Java 11", "OAPI", "Git", "Gradle", "Jenkins", "React", "Redux"]
 }, {
+    "id":5,
     "name" : "Brunei Stock Exchange (BNX), Brunei ",
     "description" : "Establish Failover for Brunei Stock Exchange (BNX)",
     "businessDomain" : "Capital Markets",
@@ -21,6 +37,7 @@ export var projects = [ {
     "location" : "Mumbai",
     "techStack" : ["Redhat Linux", "Keepalived", "Shell scripting"]
 },{
+    "id":4,
     "name" : "Mercantile Bank limited, South Africa ",
     "description" : "Re-platforming and Apification of Mercantile Bank limited Application, South Africa ",
     "businessDomain" : "Banking",
@@ -32,6 +49,7 @@ export var projects = [ {
     "location" : "Mumbai",
     "techStack" : ["Springs framework 5" , "Hibernate 4",  "Java 8", "Jboss eap 7.1", "Apache 2.4", "RESTful Third party service integration", "SOAP based integration with Core Banking System", "Git", "Maven", "Jenkins"]
 }, {
+    "id":3,
     "name" : "London Mutual Credit Union, UK",
     "description" : "Retail Banking Application for London Mutual Credit Union , UK",
     "businessDomain" : "Banking",
@@ -45,6 +63,7 @@ export var projects = [ {
     "techStack" : ["Shell Scripting", "SQL", "DB Procedures", "DB Functions"]
 },
 {
+    "id":2,
     "name" : "Retail and SME Banking for People's State Bank, US",
     "description" : "Retail and SME Banking for People's State Bank, US",
     "businessDomain" : "Banking",
@@ -57,6 +76,7 @@ export var projects = [ {
     "location" : "Mumbai",
     "techStack" : ["Integration of OpenId Connect and OAuth2"]
 },{
+    "id":1,
     "name" : "Customer On-boarding and Field Investigation App for Mahindra Finance , Mumbai",
     "description" : "Customer On-boarding and Field Investigation App for Mahindra Finance , Mumbai",
     "businessDomain" : "Banking",
@@ -70,6 +90,7 @@ export var projects = [ {
     "techStack" : ["Couchbase Server", "Camel, Springs framework 5" , "Hibernate 4",  "Java 8", "Jboss eap 7.1", "Apache 2.4", "REST Based third party service integration", "SOAP based integration with Core Banking System", "Git", "Maven", "Jenkins"]
 },
 {
+    "id":0,
     "name" : "Performance scripts and database loader for London Mutual Credit Union, UK",
     "description" : "Performance scripts and database loader for London Mutual Credit Union, UK",
     "businessDomain" : "Banking",

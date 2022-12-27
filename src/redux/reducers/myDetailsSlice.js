@@ -5,7 +5,7 @@ const initialState = {
     "phone":"+91 7411894934",
     "email":"official.aj.shukla@gmail.com",
     "website":"https://ajz007.github.io",
-    "Address":"B-604, Pratik Harmony, Sector 20, Plot 35, Road Pali, Navi Mumbai, Maharashtra, India 410218"
+    "Address":"Navi Mumbai, Maharashtra, India 410218"
 }
 
 
