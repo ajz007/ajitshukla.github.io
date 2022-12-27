@@ -18,9 +18,9 @@ export default function Projects() {
 
 	function converttoArrayOfArray(projectsArray) {
 		var finalArray = [];
-		for (let i = 0; i < projectsArray.length; i=i+4) {
+		for (let i = 0; i < projectsArray.length; i=i+3) {
 			let row = [];
-			for (let j = i; j <= i+3; j++) {
+			for (let j = i; j <= i+2; j++) {
 				if(projectsArray[j] !== undefined) {
 				row.push(projectsArray[j]);
 				}
