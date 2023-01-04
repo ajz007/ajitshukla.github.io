@@ -6,19 +6,20 @@ import Projects from "../projects/Projects";
 import MyDetails from "../mydetails/MyDetails";
 import Download from "../download/Download";
 import WorkExperiences from "../workexp/WorkExperiences";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 export default function MyProfile() {
 
     return (
         <>
-            <Header />
-            <MyDetails />
-            <WorkExperiences />
-            <Skills />
-            <Projects />
-            <Download />
-           {/* <RoadMap /> */}
-            {/*<Contact />*/}
+                <Header />
+                <MyDetails />
+                <WorkExperiences />
+                <Skills />
+                <Projects />
+                <Download />
+                {/* <RoadMap /> */}
+                {/*<Contact />*/}
         </>
     );
 }

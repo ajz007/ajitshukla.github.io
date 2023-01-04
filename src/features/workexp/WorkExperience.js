@@ -14,8 +14,8 @@ export default function WorkExperience(props) {
 				<div className="timeline-badge"><i className="icon-suitcase"></i></div>
 				<div className="timeline-panel">
 					<div className="timeline-heading">
-						<h3 className="timeline-title">{props.project.name}</h3>
-						<span className="company">{props.project.role}</span>
+						<h3 className="timeline-title">{props.project.role}</h3>
+						<span className="company">{props.project.name}</span>
 					</div>
 					<div className="timeline-body">
 						<p>Skills:

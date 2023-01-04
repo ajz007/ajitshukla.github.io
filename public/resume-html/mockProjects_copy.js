@@ -1,4 +1,4 @@
-export var projects = [ 
+export default projects = [ 
     {
         "id":7,
         "name" : "Options Clearing Corporation, US",

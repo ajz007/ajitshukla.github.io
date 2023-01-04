@@ -4,9 +4,9 @@ export default function Project(props) {
 
 	return (
 		<div className="fh5co-blog animate-box">
-			<div className="blog-text">
-				<span className="posted_on">{props.project.role}</span>
+			<div className="blog-text">				
 				<h3><a href="/#">{props.project.name}</a></h3>
+				<span className="posted_on">{props.project.role}</span>
 				<p>{props.project.techStack}</p>
 				<p>Responsibilities:
 					<ul>

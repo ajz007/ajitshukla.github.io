@@ -1,0 +1,15 @@
+Hi,
+I'm a back-end developer with 6+ years of professional working experience and more than 6+ years of java development experience. I am a B.Tech CSE graduate. Working at TCS, based in Bengaluru,India.
+
+I have great skill to work in a JavaEE applications , and rich banking experiences ,worked in a client enviornment , I have acted as a technical lead for 3+ years and have rich backend experiences, I have been server as an onsite consultant for Luminor bank bases in Estonia and Mercantile Bank bases on South Africa
+
+Languages, libraries, and framework: Java, J2EE, HTML, CSS, Docker, AWS, REST, Soap, K8(Beginer), Jenkins, Hibernate, Oracle
+Version control tool: Git
+
+
+Github: https://github.com/nithinprasad/
+LinkedIn: https://www.linkedin.com/in/nithin-prasad
+Website: https://nithinprasad.github.io
+
+Regards,
+Nithin Prasad

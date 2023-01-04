@@ -6,10 +6,14 @@ import SkillBarChart from './SkillBarChart';
 export default function Skills() {
 
     const dispatch = useDispatch();
-    const backendSkillSelectFromRedux = useSelector((state) => state.skills);
+    const backendSkillSelectFromRedux = useSelector((state) => state.skills.backendSkills);
+    const frontendSkillSelectFromRedux = useSelector((state) => state.skills.frontendSkills);
+    const devopsSkillSelectFromRedux = useSelector((state) => state.skills.devopsSkills);
 
     useEffect(() => {
         dispatch({ type: "BACKEND_SKILLS" })
+        dispatch({ type: "FRONTEND_SKILLS" })
+        dispatch({ type: "DEVOPS_SKILLS" })
     }, [dispatch])
 
     return (<div id="fh5co-skills" className="animate-box">
@@ -27,11 +31,26 @@ export default function Skills() {
                     </div>)}
                 </div> */}
             <div className="row">
-
-                {backendSkillSelectFromRedux.map((skill, index) =>
+            <h3>Backend Skills</h3>
+                {backendSkillSelectFromRedux && backendSkillSelectFromRedux.map((skill, index) =>
                     <SkillBarChart percentageValue={skill.measure * 100} expertise={skill.expertise} skill={skill.name} index={index} />
                 )}                
             </div>
+            
+            <div className="row">
+            <h3>Frontend Skills</h3>
+                {frontendSkillSelectFromRedux && frontendSkillSelectFromRedux.map((skill, index) =>
+                    <SkillBarChart percentageValue={skill.measure * 100} expertise={skill.expertise} skill={skill.name} index={index} />
+                )}                
+            </div>
+
+            <div className="row">
+            <h3>Devops Skills</h3>
+                {devopsSkillSelectFromRedux && devopsSkillSelectFromRedux.map((skill, index) =>
+                    <SkillBarChart percentageValue={skill.measure * 100} expertise={skill.expertise} skill={skill.name} index={index} />
+                )}                
+            </div>
+
         </div>
     </div>);
 }

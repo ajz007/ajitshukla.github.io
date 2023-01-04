@@ -690,12 +690,12 @@ h1, h2, h3, h4, h5, h6, figure {
 .progress{
 	width: 100%;
 	float: left;
-	height: 5px;
+	height: 25px;
 	box-shadow: none;
 }
 .progress-bar{
 	background-color: $brand-bg-dark;
-	height: 5px;
+	height: 25px;
 	display: block;
 	box-shadow: none;
 	&.progress-bar-1{
