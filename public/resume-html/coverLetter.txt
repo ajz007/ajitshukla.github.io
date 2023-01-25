@@ -1,15 +1,10 @@
-Hi,
-I'm a back-end developer with 6+ years of professional working experience and more than 6+ years of java development experience. I am a B.Tech CSE graduate. Working at TCS, based in Bengaluru,India.
+Hello there,
+Young, enthusiastic and ownership driven full stack developer with a strong experience in banking and capital markets. Currently working as a Scrum Master and individual contributer in a fast paced agile environment for a 'equity options trading clearing house' product in Nasdaq.
+I have worn several hats like developer, tech lead, engineering manager and  solutions architect which shows that I am very agile and happy to fit in any role as long as I am learning :)
 
-I have great skill to work in a JavaEE applications , and rich banking experiences ,worked in a client enviornment , I have acted as a technical lead for 3+ years and have rich backend experiences, I have been server as an onsite consultant for Luminor bank bases in Estonia and Mercantile Bank bases on South Africa
-
-Languages, libraries, and framework: Java, J2EE, HTML, CSS, Docker, AWS, REST, Soap, K8(Beginer), Jenkins, Hibernate, Oracle
-Version control tool: Git
-
-
-Github: https://github.com/nithinprasad/
-LinkedIn: https://www.linkedin.com/in/nithin-prasad
-Website: https://nithinprasad.github.io
+Github: https://github.com/ajz007
+LinkedIn: https://www.linkedin.com/in/ajit-shukla-a36171171/
+Website: https://ajz007.github.io/
 
 Regards,
-Nithin Prasad
+Ajit Shukla

@@ -23,6 +23,32 @@ function createProjectList() {
 
 }
 
+//for projectexp
+function createProjectExperience() {
+    var projects = getMyProjects();
+
+    projects.map(project => createExperience(project));
+
+}
+
+function createExperience(project) {
+    var projListHtmlObj = document.getElementById('experience_list');
+    
+
+    var title = document.createElement('p');
+    var p1_role = document.createElement('b');
+    var date_range = document.createElement('span');
+
+    title.innerHTML = project.name;
+    p1_role.innerHTML = project.role;
+    date_range.innerHTML = project.durationTo ? project.durationFrom + "&nbsp; - &nbsp;" + project.durationTo : "From " + project.durationFrom;
+ 
+    
+    projListHtmlObj.appendChild(p1_role);
+    projListHtmlObj.appendChild(title);
+    projListHtmlObj.appendChild(date_range);
+}
+
 function createProjectItem(project) {
     var projListHtmlObj = document.getElementById('project_list');
     var li = document.createElement('li');
