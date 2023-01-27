@@ -65,7 +65,7 @@ function createProjectItem(project) {
 
     li.appendChild(title);
     li.appendChild(p1_role);
-    li.appendChild(p2_skills);
+    //li.appendChild(p2_skills);
     li.appendChild(p3_resp);   
     projListHtmlObj.appendChild(li);
 }
@@ -89,14 +89,15 @@ function getMyProjects() {
     var projects = [ 
         {
             "id":7,
-            "name" : "Options Clearing Corporation, US",
+            "name" : "Options Clearing Corporation(Infra), US",
             "description" : "Working as Scrum Master – Developer for Nasdaq’s Options Clearing Project",
             "businessDomain" : "Capital Markets",
             "durationFrom" : "Nov 2022",
             "durationTo" : "",
             "isCurrent" : true,
-            "role": "Scrum Master and Individual Contributor",
-            "responsibilities" : ["Planning, designing and execution of project deployment on kubernetes and aws", ""],
+            "role": "Scrum Master and Individual Contributor (Nasdaq)",
+            "responsibilities" : ["Successfully containerized the trading platform using Docker, Kubernetes and helped reduce the overall overhead of the deployment of the microservices cluster with a single view in Rancher",
+            "Achieved the cross cluster communication using NodePort and ingress and help saved cost by avoiding a costly CNI solution"],
             "location" : "Mumbai",
             "techStack" : ["Docker","Kubernetes","AWS", "AWS-EC2", "AWS-S3", "Terraform", "Rancher", "Jenkins", "Groovy", "Jinja2"]
         },
@@ -108,8 +109,8 @@ function getMyProjects() {
         "durationFrom" : "Feb 2021",
         "durationTo" : "",
         "isCurrent" : false,
-        "role": "Scrum Master and Individual Contributor",
-        "responsibilities" : ["Story creation", "estimation", "monitoring and closure of stories along with working as a developer"],
+        "role": "Scrum Master and Individual Contributor (Nasdaq)",
+        "responsibilities" : ["Helped build an event driven asynchronous communication between microservices in the trading system"],
         "location" : "Mumbai",
         "techStack" : ["Micro services","CDB (Propriety No Sql DB)","Apache Kafka", "IBM MQ", "Java 11", "OAPI", "Git", "Gradle", "Jenkins", "React", "Redux"]
     }, {
@@ -120,8 +121,8 @@ function getMyProjects() {
         "durationFrom" : "April 2021",
         "durationTo" : "Dec 2021",
         "isCurrent" : false,
-        "role": "Engineering Manager",
-        "responsibilities" : ["Ensure the failover is created", "tested and handed over to the development team"],
+        "role": "Engineering Manager (NSE It)",
+        "responsibilities" : ["Created a master slave automated failover cluster for Brunei Stock Exchange using keepalived and shell scripting"],
         "location" : "Mumbai",
         "techStack" : ["Redhat Linux", "Keepalived", "Shell scripting"]
     },{
@@ -132,7 +133,7 @@ function getMyProjects() {
         "durationFrom" : "Jan 2020",
         "durationTo" : "Feb 2021",
         "isCurrent" : false,
-        "role": "Solutions Architect for Product, Tech lead for implementation",
+        "role": "Solutions Architect for Product, Tech lead for implementation (TCS)",
         "responsibilities" : ["Design Restful apis for the application middleware which can be consumed by any third party application/UI "],
         "location" : "Mumbai",
         "techStack" : ["Springs framework 5" , "Hibernate 4",  "Java 8", "Jboss eap 7.1", "Apache 2.4", "RESTful Third party service integration", "SOAP based integration with Core Banking System", "Git", "Maven", "Jenkins"]
@@ -144,23 +145,24 @@ function getMyProjects() {
         "durationFrom" : "Feb 2019",
         "durationTo" : "Jan 2020",
         "isCurrent" : false,
-        "role": "Solutions Architect for Product, Tech lead for implementation",
-        "responsibilities" : ["As Team Lead: Developed data migration scripts, code fixes",
-    "As Solutions Architect: Study the RFP, help in responding to RFPs, propose tech stack , effort estimation, review any changes to product."],
+        "role": "Solutions Architect for Product, Tech lead for implementation (TCS)",
+        "responsibilities" : ["Saved network bandwidth and related cost for the one of the customers by implementing caching and compression for their application",
+                                "Implemented biometric and oauth based authentication"],
         "location" : "Mumbai",
         "techStack" : ["Shell Scripting", "SQL", "DB Procedures", "DB Functions"]
     },
     {
         "id":2,
-        "name" : "Retail and SME Banking for People's State Bank, US",
-        "description" : "Retail and SME Banking for People's State Bank, US",
+        "name" : "Retail and SME Banking for People\'s State Bank, US",
+        "description" : "Retail and SME Banking for People\'s State Bank, US",
         "businessDomain" : "Banking",
         "durationFrom" : "Feb 2019",
         "durationTo" : "Feb 2019",
         "isCurrent" : false,
-        "role": "Solutions Architect for Product, Tech lead for implementation",
-        "responsibilities" : ["As Team Lead: Requirement gathering, design and development of the solution, code review, all third party integration",
-    "Study the RFP, help in responding to RFPs, propose tech stack , effort estimation, review any changes to product."],
+        "role": "Solutions Architect for Product, Tech lead for implementation (TCS)",
+        "responsibilities" : ["Designed and implemented Batch file processor for salary processing",
+                                "Fine tuning of the queries for performance enhancement",
+                            "Added OWASP top 10 security recommendations as part of the product"],
         "location" : "Mumbai",
         "techStack" : ["Integration of OpenId Connect and OAuth2"]
     },{
@@ -171,9 +173,8 @@ function getMyProjects() {
         "durationFrom" : "Dec 2018",
         "durationTo" : "Feb 2019",
         "isCurrent" : false,
-        "role": "Solutions Architect for Product, Tech lead for implementation",
-        "responsibilities" : ["As Team Lead: Requirement gathering, design and development of the solution, code review, all third party integration",
-    "Study the RFP, help in responding to RFPs, propose tech stack , effort estimation, review any changes to product."],
+        "role": "Solutions Architect for Product, Tech lead for implementation (TCS)",
+        "responsibilities" : ["Successfully designed the offline commercial vehicle loan application"],
         "location" : "Mumbai",
         "techStack" : ["Couchbase Server", "Camel, Springs framework 5" , "Hibernate 4",  "Java 8", "Jboss eap 7.1", "Apache 2.4", "REST Based third party service integration", "SOAP based integration with Core Banking System", "Git", "Maven", "Jenkins"]
     },
@@ -185,8 +186,8 @@ function getMyProjects() {
         "durationFrom" : "Dec 2018",
         "durationTo" : "Feb 2019",
         "isCurrent" : false,
-        "role": "Tech lead",
-        "responsibilities" : ["Role as Team Lead: Requirement gathering, design and development of the solution, code review"],
+        "role": "Tech lead (TCS)",
+        "responsibilities" : ["Created database loader and migration scripts for a product upgrade"],
         "location" : "Mumbai",
         "techStack" : ["IBM RPT",  "Java8"]
     },

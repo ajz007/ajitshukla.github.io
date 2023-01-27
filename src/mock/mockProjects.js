@@ -8,7 +8,8 @@ export var projects = [
         "durationTo" : "",
         "isCurrent" : true,
         "role": "Scrum Master and Individual Contributor",
-        "responsibilities" : ["Planning, designing and execution of project deployment on kubernetes and aws", ""],
+        "responsibilities" : ["Successfully containerized the trading platform using Docker, Kubernetes and helped reduce the overall overhead of the deployment of the microservices cluster with a single view in Rancher",
+        "Achieved the cross cluster communication using NodePort and ingress and help saved cost by avoiding a costly CNI solution"],
         "location" : "Mumbai",
         "techStack" : ["Docker","Kubernetes","AWS", "AWS-EC2", "AWS-S3", "Terraform", "Rancher", "Jenkins", "Groovy", "Jinja2"]
     },
@@ -21,7 +22,7 @@ export var projects = [
     "durationTo" : "",
     "isCurrent" : false,
     "role": "Scrum Master and Individual Contributor",
-    "responsibilities" : ["Story creation", "estimation", "monitoring and closure of stories along with working as a developer"],
+    "responsibilities" : ["Helped build an event driven asynchronous communication between microservices in the trading system"],
     "location" : "Mumbai",
     "techStack" : ["Micro services","CDB (Propriety No Sql DB)","Apache Kafka", "IBM MQ", "Java 11", "OAPI", "Git", "Gradle", "Jenkins", "React", "Redux"]
 }, {
@@ -33,7 +34,7 @@ export var projects = [
     "durationTo" : "Dec 2021",
     "isCurrent" : false,
     "role": "Engineering Manager",
-    "responsibilities" : ["Ensure the failover is created", "tested and handed over to the development team"],
+    "responsibilities" : ["Created a master slave automated failover cluster for Brunei Stock Exchange using keepalived and shell scripting"],
     "location" : "Mumbai",
     "techStack" : ["Redhat Linux", "Keepalived", "Shell scripting"]
 },{
@@ -57,8 +58,8 @@ export var projects = [
     "durationTo" : "Jan 2020",
     "isCurrent" : false,
     "role": "Solutions Architect for Product, Tech lead for implementation",
-    "responsibilities" : ["As Team Lead: Developed data migration scripts, code fixes",
-"As Solutions Architect: Study the RFP, help in responding to RFPs, propose tech stack , effort estimation, review any changes to product."],
+    "responsibilities" : ["Saved network bandwidth and related cost for the one of the customers by implementing caching and compression for their application",
+    "Implemented biometric and oauth based authentication"],
     "location" : "Mumbai",
     "techStack" : ["Shell Scripting", "SQL", "DB Procedures", "DB Functions"]
 },
@@ -71,8 +72,9 @@ export var projects = [
     "durationTo" : "Feb 2019",
     "isCurrent" : false,
     "role": "Solutions Architect for Product, Tech lead for implementation",
-    "responsibilities" : ["As Team Lead: Requirement gathering, design and development of the solution, code review, all third party integration",
-"Study the RFP, help in responding to RFPs, propose tech stack , effort estimation, review any changes to product."],
+    "responsibilities" :  ["Designed and implemented Batch file processor for salary processing",
+    "Fine tuning of the queries for performance enhancement",
+"Added OWASP top 10 security recommendations as part of the product"],
     "location" : "Mumbai",
     "techStack" : ["Integration of OpenId Connect and OAuth2"]
 },{
@@ -84,8 +86,7 @@ export var projects = [
     "durationTo" : "Feb 2019",
     "isCurrent" : false,
     "role": "Solutions Architect for Product, Tech lead for implementation",
-    "responsibilities" : ["As Team Lead: Requirement gathering, design and development of the solution, code review, all third party integration",
-"Study the RFP, help in responding to RFPs, propose tech stack , effort estimation, review any changes to product."],
+    "responsibilities" : ["Successfully designed the offline commercial vehicle loan application"],
     "location" : "Mumbai",
     "techStack" : ["Couchbase Server", "Camel, Springs framework 5" , "Hibernate 4",  "Java 8", "Jboss eap 7.1", "Apache 2.4", "REST Based third party service integration", "SOAP based integration with Core Banking System", "Git", "Maven", "Jenkins"]
 },
@@ -98,7 +99,7 @@ export var projects = [
     "durationTo" : "Feb 2019",
     "isCurrent" : false,
     "role": "Tech lead",
-    "responsibilities" : ["Role as Team Lead: Requirement gathering, design and development of the solution, code review"],
+    "responsibilities" : ["Created database loader and migration scripts for a product upgrade"],
     "location" : "Mumbai",
     "techStack" : ["IBM RPT",  "Java8"]
 },
