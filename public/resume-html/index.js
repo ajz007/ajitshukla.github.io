@@ -34,14 +34,14 @@ function createProjectExperience() {
 function createExperience(project) {
     var projListHtmlObj = document.getElementById('experience_list');
     
-
+    
     var title = document.createElement('p');
     var p1_role = document.createElement('b');
     var date_range = document.createElement('span');
 
     title.innerHTML = project.name;
     p1_role.innerHTML = project.role;
-    date_range.innerHTML = project.durationTo ? project.durationFrom + "&nbsp; - &nbsp;" + project.durationTo : "From " + project.durationFrom;
+    date_range.innerHTML = project.durationTo ? project.durationFrom + " to " + project.durationTo : "From " + project.durationFrom;
  
     
     projListHtmlObj.appendChild(p1_role);
@@ -96,8 +96,9 @@ function getMyProjects() {
             "durationTo" : "",
             "isCurrent" : true,
             "role": "Scrum Master and Individual Contributor (Nasdaq)",
-            "responsibilities" : ["Successfully containerized the trading platform using Docker, Kubernetes and helped reduce the overall overhead of the deployment of the microservices cluster with a single view in Rancher",
-            "Achieved the cross cluster communication using NodePort and ingress and help saved cost by avoiding a costly CNI solution"],
+            "responsibilities" : ["Successfully containerized the options trading platform using Docker, Kubernetes, k8s Operator",
+            "Achieved the cross cluster communication using NodePort, external name and K8s ingress and helped save cost by avoiding a costly CNI solution",
+            "Streamlined the jenkins pipeline by setting up groovy scripts for the pipeline"],
             "location" : "Mumbai",
             "techStack" : ["Docker","Kubernetes","AWS", "AWS-EC2", "AWS-S3", "Terraform", "Rancher", "Jenkins", "Groovy", "Jinja2"]
         },
@@ -110,7 +111,9 @@ function getMyProjects() {
         "durationTo" : "",
         "isCurrent" : false,
         "role": "Scrum Master and Individual Contributor (Nasdaq)",
-        "responsibilities" : ["Helped build an event driven asynchronous communication between microservices in the trading system"],
+        "responsibilities" : ["Helped build an event driven asynchronous communication between microservices using Kafka",
+                            "Increased team's effectiveness and cost of thirdparty services by implementing a mock server for validating the third party apis",
+                            "Created higher order components with React and helped improve re-usability on the UI side"],
         "location" : "Mumbai",
         "techStack" : ["Micro services","CDB (Propriety No Sql DB)","Apache Kafka", "IBM MQ", "Java 11", "OAPI", "Git", "Gradle", "Jenkins", "React", "Redux"]
     }, {
@@ -122,7 +125,9 @@ function getMyProjects() {
         "durationTo" : "Dec 2021",
         "isCurrent" : false,
         "role": "Engineering Manager (NSE It)",
-        "responsibilities" : ["Created a master slave automated failover cluster for Brunei Stock Exchange using keepalived and shell scripting"],
+        "responsibilities" : ["Created a master slave automated failover cluster for Brunei Stock Exchange using keepalived and shell scripting",
+                            "Created a propriety chat application using React, Javascript and Sprintboot",
+                            "Managed a team of developers and ensured they are motivated and up to speed with the daily and longer scheme of things"],
         "location" : "Mumbai",
         "techStack" : ["Redhat Linux", "Keepalived", "Shell scripting"]
     },{
@@ -134,7 +139,9 @@ function getMyProjects() {
         "durationTo" : "Feb 2021",
         "isCurrent" : false,
         "role": "Solutions Architect for Product, Tech lead for implementation (TCS)",
-        "responsibilities" : ["Design Restful apis for the application middleware which can be consumed by any third party application/UI "],
+        "responsibilities" : ["Design Restful apis(OAPI) for the application middleware which can be consumed by any third party application/UI ",
+                            "Re-engineered the Servlets, JSP based monolithic application to support RESTful, modularised frontend application",
+                            "Participated in the core disussions and spearheading implementation of upgrading from the monolith application to a microservice architecture"],
         "location" : "Mumbai",
         "techStack" : ["Springs framework 5" , "Hibernate 4",  "Java 8", "Jboss eap 7.1", "Apache 2.4", "RESTful Third party service integration", "SOAP based integration with Core Banking System", "Git", "Maven", "Jenkins"]
     }, {
@@ -147,14 +154,14 @@ function getMyProjects() {
         "isCurrent" : false,
         "role": "Solutions Architect for Product, Tech lead for implementation (TCS)",
         "responsibilities" : ["Saved network bandwidth and related cost for the one of the customers by implementing caching and compression for their application",
-                                "Implemented biometric and oauth based authentication"],
+                                "Implemented biometric and oauth based authentication in Android and IOS apps with a third pary security provider"],
         "location" : "Mumbai",
-        "techStack" : ["Shell Scripting", "SQL", "DB Procedures", "DB Functions"]
+        "techStack" : ["Javascript", "React", "Spring MVC", "OAuth 2", "OpenId Connect"]
     },
     {
         "id":2,
-        "name" : "Retail and SME Banking for People\'s State Bank, US",
-        "description" : "Retail and SME Banking for People\'s State Bank, US",
+        "name" : "SME Banking for Peoples State Bank, US",
+        "description" : "SME Banking for Peoples State Bank, US",
         "businessDomain" : "Banking",
         "durationFrom" : "Feb 2019",
         "durationTo" : "Feb 2019",
@@ -164,7 +171,7 @@ function getMyProjects() {
                                 "Fine tuning of the queries for performance enhancement",
                             "Added OWASP top 10 security recommendations as part of the product"],
         "location" : "Mumbai",
-        "techStack" : ["Integration of OpenId Connect and OAuth2"]
+        "techStack" : ["Servlets","Design Patterns", "Oracle", "Sql", "OAuth 2", "OpenId Connect"]
     },{
         "id":1,
         "name" : "Customer On-boarding and Field Investigation App for Mahindra Finance , Mumbai",
@@ -174,9 +181,10 @@ function getMyProjects() {
         "durationTo" : "Feb 2019",
         "isCurrent" : false,
         "role": "Solutions Architect for Product, Tech lead for implementation (TCS)",
-        "responsibilities" : ["Successfully designed the offline commercial vehicle loan application"],
+        "responsibilities" : ["Successfully designed the offline commercial vehicle loan application",
+                                ],
         "location" : "Mumbai",
-        "techStack" : ["Couchbase Server", "Camel, Springs framework 5" , "Hibernate 4",  "Java 8", "Jboss eap 7.1", "Apache 2.4", "REST Based third party service integration", "SOAP based integration with Core Banking System", "Git", "Maven", "Jenkins"]
+        "techStack" : ["Couchbase Server", "Apache Camel", "Springs framework 5" , "Hibernate 4",  "Java 8", "Jboss eap 7.1", "Apache 2.4", "REST", "SOAP", "Git", "Maven", "Jenkins"]
     },
     {
         "id":0,
@@ -187,7 +195,9 @@ function getMyProjects() {
         "durationTo" : "Feb 2019",
         "isCurrent" : false,
         "role": "Tech lead (TCS)",
-        "responsibilities" : ["Created database loader and migration scripts for a product upgrade"],
+        "responsibilities" : ["Created database loader and migration scripts for a product upgrade",
+                            "Created the performance scripts using IBM RPT tool which helped us in identifying key bottlenecks and improvement areas in the product",
+                        "Fine tuned the SQL queries to improve the overall perfomance as per the needs of the implemenation"],
         "location" : "Mumbai",
         "techStack" : ["IBM RPT",  "Java8"]
     },

@@ -8,8 +8,9 @@ export var projects = [
         "durationTo" : "",
         "isCurrent" : true,
         "role": "Scrum Master and Individual Contributor",
-        "responsibilities" : ["Successfully containerized the trading platform using Docker, Kubernetes and helped reduce the overall overhead of the deployment of the microservices cluster with a single view in Rancher",
-        "Achieved the cross cluster communication using NodePort and ingress and help saved cost by avoiding a costly CNI solution"],
+        "responsibilities" : ["Successfully containerized the options trading platform using Docker, Kubernetes, k8s Operator",
+        "Achieved the cross cluster communication using NodePort, external name and K8s ingress and helped save cost by avoiding a costly CNI solution",
+        "Streamlined the jenkins pipeline by setting up groovy scripts for the pipeline"],
         "location" : "Mumbai",
         "techStack" : ["Docker","Kubernetes","AWS", "AWS-EC2", "AWS-S3", "Terraform", "Rancher", "Jenkins", "Groovy", "Jinja2"]
     },
@@ -22,7 +23,9 @@ export var projects = [
     "durationTo" : "",
     "isCurrent" : false,
     "role": "Scrum Master and Individual Contributor",
-    "responsibilities" : ["Helped build an event driven asynchronous communication between microservices in the trading system"],
+    "responsibilities" : ["Helped build an event driven asynchronous communication between microservices using Kafka",
+    "Increased team's effectiveness and cost of thirdparty services by implementing a mock server for validating the third party apis",
+    "Created higher order components with React and helped improve re-usability on the UI side"],
     "location" : "Mumbai",
     "techStack" : ["Micro services","CDB (Propriety No Sql DB)","Apache Kafka", "IBM MQ", "Java 11", "OAPI", "Git", "Gradle", "Jenkins", "React", "Redux"]
 }, {
@@ -34,7 +37,9 @@ export var projects = [
     "durationTo" : "Dec 2021",
     "isCurrent" : false,
     "role": "Engineering Manager",
-    "responsibilities" : ["Created a master slave automated failover cluster for Brunei Stock Exchange using keepalived and shell scripting"],
+    "responsibilities" : ["Created a master slave automated failover cluster for Brunei Stock Exchange using keepalived and shell scripting",
+    "Created a propriety chat application using React, Javascript and Sprintboot",
+    "Managed a team of developers and ensured they are motivated and up to speed with the daily and longer scheme of things"],
     "location" : "Mumbai",
     "techStack" : ["Redhat Linux", "Keepalived", "Shell scripting"]
 },{
@@ -46,7 +51,9 @@ export var projects = [
     "durationTo" : "Feb 2021",
     "isCurrent" : false,
     "role": "Solutions Architect for Product, Tech lead for implementation",
-    "responsibilities" : ["Design Restful apis for the application middleware which can be consumed by any third party application/UI "],
+    "responsibilities" : ["Design Restful apis(OAPI) for the application middleware which can be consumed by any third party application/UI ",
+    "Re-engineered the Servlets, JSP based monolithic application to support RESTful, modularised frontend application",
+    "Participated in the core disussions and spearheading implementation of upgrading from the monolith application to a microservice architecture"],
     "location" : "Mumbai",
     "techStack" : ["Springs framework 5" , "Hibernate 4",  "Java 8", "Jboss eap 7.1", "Apache 2.4", "RESTful Third party service integration", "SOAP based integration with Core Banking System", "Git", "Maven", "Jenkins"]
 }, {
@@ -58,8 +65,8 @@ export var projects = [
     "durationTo" : "Jan 2020",
     "isCurrent" : false,
     "role": "Solutions Architect for Product, Tech lead for implementation",
-    "responsibilities" : ["Saved network bandwidth and related cost for the one of the customers by implementing caching and compression for their application",
-    "Implemented biometric and oauth based authentication"],
+    "responsibilities" :["Saved network bandwidth and related cost for the one of the customers by implementing caching and compression for their application",
+    "Implemented biometric and oauth based authentication in Android and IOS apps with a third pary security provider"],
     "location" : "Mumbai",
     "techStack" : ["Shell Scripting", "SQL", "DB Procedures", "DB Functions"]
 },
@@ -72,7 +79,7 @@ export var projects = [
     "durationTo" : "Feb 2019",
     "isCurrent" : false,
     "role": "Solutions Architect for Product, Tech lead for implementation",
-    "responsibilities" :  ["Designed and implemented Batch file processor for salary processing",
+    "responsibilities" :   ["Designed and implemented Batch file processor for salary processing",
     "Fine tuning of the queries for performance enhancement",
 "Added OWASP top 10 security recommendations as part of the product"],
     "location" : "Mumbai",
@@ -99,7 +106,9 @@ export var projects = [
     "durationTo" : "Feb 2019",
     "isCurrent" : false,
     "role": "Tech lead",
-    "responsibilities" : ["Created database loader and migration scripts for a product upgrade"],
+    "responsibilities" :  ["Created database loader and migration scripts for a product upgrade",
+    "Created the performance scripts using IBM RPT tool which helped us in identifying key bottlenecks and improvement areas in the product",
+"Fine tuned the SQL queries to improve the overall perfomance as per the needs of the implemenation"],
     "location" : "Mumbai",
     "techStack" : ["IBM RPT",  "Java8"]
 },
